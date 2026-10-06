@@ -1,0 +1,19 @@
+# Virtual environment (recreate with `pipenv install`)
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Re-generated candidates (actual experimental conditions are in data/)
+outputs/*
+!outputs/.gitkeep
